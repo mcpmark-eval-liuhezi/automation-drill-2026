@@ -1,0 +1,11 @@
+name: Drill CI
+
+on:
+  push:
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo drill status
+        run: echo drill-ok
